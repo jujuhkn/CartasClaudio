@@ -717,7 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d62b68b90e3fbf43977cad23953bcc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  texto: {fileID: 0}
+  texto: {fileID: 1610375108}
 --- !u!1 &1610375106
 GameObject:
   m_ObjectHideFlags: 0
