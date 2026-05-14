@@ -4,10 +4,10 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
 
-    public string CENA2;
+    public string CenaCena;
 
     public void TrocarCena()
     {
-        SceneManager.LoadScene(CENA2);
+        SceneManager.LoadScene("CenaCena");
     }
 }
