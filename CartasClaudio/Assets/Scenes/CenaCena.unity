@@ -1670,8 +1670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18df370f29849f46b8b28142372c150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeIntro
-  fadeImage: {fileID: 0}
-  fadeSpeed: 1
 --- !u!4 &197384527
 Transform:
   m_ObjectHideFlags: 0
@@ -9400,8 +9398,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -15.0311, y: -19.6483}
+  m_SizeDelta: {x: 390.4937, y: 479.1426}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718659381
 MonoBehaviour:
@@ -9423,7 +9421,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 6281354911910637417, guid: c2bd6f117d63512478cffea54913d48a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10173,8 +10171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterEffect
   textComponent: {fileID: 1881413803}
-  message: "\u2018Um homem est\xE1 pendurado num peda\xE7o de corda em um quarto.
-    Embaixo dele, h\xE1 uma po\xE7a..."
+  message: "\u2018Um homem esta pendurado num peda\xE7o de corda em um quarto. Embaixo
+    dele, ha uma po\xE7a..."
   typingSpeed: 0.05
 --- !u!1 &1898056663
 GameObject:
