@@ -1,24 +1,34 @@
 using UnityEngine;
-using UnityEngine.UI;
+
+
 
 public class PistaImagem : MonoBehaviour
 {
-    public GameObject painelImagem;
-    public Image imagemGrande;
-    public Sprite imagemDaPista;
+    public GameObject pistaUI;
 
-    private void OnMouseDown()
+    private bool aberta = false;
+
+    void OnMouseDown()
     {
-        painelImagem.SetActive(true);
-        imagemGrande.sprite = imagemDaPista;
+        if (aberta)
+            return;
+
+        aberta = true;
+
+        pistaUI.SetActive(true);
+
+        Time.timeScale = 0f;
     }
 
-    private void Update()
+    void Update()
     {
-        if (painelImagem.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+        if (aberta && Input.GetKeyDown(KeyCode.Escape))
         {
-            painelImagem.SetActive(false);
+            pistaUI.SetActive(false);
+
+            aberta = false;
+
+            Time.timeScale = 1f;
         }
     }
-
 }
