@@ -1,11 +1,19 @@
+
+
 using UnityEngine;
 
 public class CartaClick : MonoBehaviour
 {
     public GameObject cartaUI;
+    public GameObject corpo;
 
     private bool aberta = false;
     private bool jaFoiLida = false;
+
+    void Start()
+    {
+        corpo.SetActive(false);
+    }
 
     void OnMouseDown()
     {
@@ -13,7 +21,6 @@ public class CartaClick : MonoBehaviour
             return;
 
         aberta = true;
-
         cartaUI.SetActive(true);
 
         Time.timeScale = 0f;
@@ -28,7 +35,10 @@ public class CartaClick : MonoBehaviour
             aberta = false;
             jaFoiLida = true;
 
+            corpo.SetActive(true);
+
             Time.timeScale = 1f;
         }
     }
 }
+
