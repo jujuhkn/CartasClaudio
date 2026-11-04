@@ -6,16 +6,15 @@ public class VirarPlayer : MonoBehaviour
 
     void Update()
     {
-        // Direita: D ou seta direita
+        
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             sprite.flipX = true;
         }
-
-        // Esquerda: A ou seta esquerda
+      
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             sprite.flipX = false;
         }
-    }
+    }// nossa que legal fazer um trabalhoem dupla, absolutamente sozinha. a inutilidade das pessoas é algo impressionante, tal como a incapacidade de aprender...
 }
