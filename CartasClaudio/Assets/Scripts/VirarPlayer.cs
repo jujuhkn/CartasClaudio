@@ -16,5 +16,5 @@ public class VirarPlayer : MonoBehaviour
         {
             sprite.flipX = false;
         }
-    }// nossa que legal fazer um trabalhoem dupla, absolutamente sozinha. a inutilidade das pessoas é algo impressionante, tal como a incapacidade de aprender...
+    }// nossa que legal fazer um trabalhoem dupla, absolutamente sozinha. a inutilidade das pessoas é algo impressionante, tal como a incapacidade de aprender em 3 anos...
 }
